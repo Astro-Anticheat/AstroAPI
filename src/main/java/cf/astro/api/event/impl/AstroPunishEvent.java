@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 @Getter
 @AllArgsConstructor
 public final class AstroPunishEvent extends AstroEvent {
-    private final Player player;
+    private final Player astroPlayer;
     private final String check, type;
     private final double currentBuffer;
 }
