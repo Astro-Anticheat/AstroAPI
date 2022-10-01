@@ -1,0 +1,25 @@
+name: "Build and Release"
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  release:
+    name: "Release"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: "Build"
+        uses: qcastel/github-actions-maven-cmd@master
+        with:
+          maven-args: "clean install"
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Latest Release"
+          files: "*.jar"
