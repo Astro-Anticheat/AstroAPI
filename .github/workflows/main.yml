@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: "Build"
-        uses: s4u/setup-maven-action@master
+        uses: "s4u/setup-maven-action@latest"
         with:
           java-version: 8
       
