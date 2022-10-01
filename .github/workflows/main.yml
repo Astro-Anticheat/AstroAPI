@@ -16,10 +16,10 @@ jobs:
         with:
           java-version: 8
       - name: "Build with maven"
-      - run: "mvn clean install"
+        run: "mvn clean install"
       
       - name: "Upload Release"
-      - uses: "marvinpinto/action-automatic-releases@latest"
+        uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
