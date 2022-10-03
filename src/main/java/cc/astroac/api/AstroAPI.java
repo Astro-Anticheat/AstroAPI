@@ -5,7 +5,6 @@ import cc.astroac.api.event.registry.AstroEventRegistry;
 public enum AstroAPI {
     INSTANCE;
     private static AstroEventRegistry astroEventRegistry;
-    private final String test = "Test";
 
     public void init() {
         astroEventRegistry = getAstroEventRegistry();
