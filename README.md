@@ -1,5 +1,5 @@
 # AstroAPI
-##Events
+# #Events
 - AstroFlagEvent
   - Called whenever Astro flags a player.
 - AstroGhostBlockEvent
