@@ -9,6 +9,7 @@ import org.bukkit.entity.Player;
 @AllArgsConstructor
 public final class AstroFlagEvent extends AstroEvent {
     private final Player player;
-    private final String check, type;
-    private final int currentViolationLevel;
+    private final String check, type, info, description;
+    private final int currentViolationLevel, maxVl;
+    private boolean experimental;
 }
