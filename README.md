@@ -17,7 +17,7 @@ Astro API is used for Astro Anticheat which can be purchased at https://astroac.
 <dependency>
     <groupId>com.github.Astro-Anticheat</groupId>
     <artifactId>AstroAPI</artifactId>
-    <version>VERSION</version>
+    <version>main-SNAPSHOT</version>
 </dependency>
 ```
 
