@@ -26,7 +26,7 @@ Astro API is used for Astro Anticheat which can be purchased at https://astroac.
 ```xml
 maven { url 'https://www.jitpack.io' }
 
-implementation 'com.github.Astro-Anticheat:main-SNAPSHOT:VERSION'
+implementation 'com.github.Astro-Anticheat:AstroAPI:main-SNAPSHOT'
 ```
 
 
