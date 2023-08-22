@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 
+@Deprecated
 @RequiredArgsConstructor
 @Getter
 public class AstroGhostBlockEvent extends AstroEvent {
