@@ -1,5 +1,6 @@
 package cc.astroac.api.event.impl;
 
+import cc.astroac.api.event.AstroEvent;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -7,7 +8,7 @@ import java.util.UUID;
 
 @RequiredArgsConstructor
 @Getter
-public class AstroBlacklistEvent {
+public class AstroBlacklistEvent extends AstroEvent {
     private final String name;
     private final UUID uuid;
 }
