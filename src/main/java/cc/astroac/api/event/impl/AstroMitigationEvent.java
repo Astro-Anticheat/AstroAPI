@@ -4,6 +4,7 @@ import cc.astroac.api.data.AstroPlayer;
 import cc.astroac.api.event.AstroEvent;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.Setter;
 import org.bukkit.entity.Player;
 
 @Getter
