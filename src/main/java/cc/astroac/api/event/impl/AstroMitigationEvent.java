@@ -13,4 +13,7 @@ public class AstroMitigationEvent extends AstroEvent {
     private final String check, type, info, description;
     private final int currentViolationLevel, maxVl;
     private boolean experimental;
+
+    @Setter
+    private boolean cancelAlert, cancelSetBack;
 }
